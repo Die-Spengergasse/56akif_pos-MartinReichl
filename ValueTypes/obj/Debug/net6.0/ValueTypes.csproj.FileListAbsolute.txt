@@ -1,0 +1,15 @@
+E:\Spenger\56AKIF\POS\ValueTypes\bin\Debug\net6.0\ValueTypes.exe
+E:\Spenger\56AKIF\POS\ValueTypes\bin\Debug\net6.0\ValueTypes.deps.json
+E:\Spenger\56AKIF\POS\ValueTypes\bin\Debug\net6.0\ValueTypes.runtimeconfig.json
+E:\Spenger\56AKIF\POS\ValueTypes\bin\Debug\net6.0\ValueTypes.dll
+E:\Spenger\56AKIF\POS\ValueTypes\bin\Debug\net6.0\ValueTypes.pdb
+E:\Spenger\56AKIF\POS\ValueTypes\obj\Debug\net6.0\ValueTypes.csproj.AssemblyReference.cache
+E:\Spenger\56AKIF\POS\ValueTypes\obj\Debug\net6.0\ValueTypes.GeneratedMSBuildEditorConfig.editorconfig
+E:\Spenger\56AKIF\POS\ValueTypes\obj\Debug\net6.0\ValueTypes.AssemblyInfoInputs.cache
+E:\Spenger\56AKIF\POS\ValueTypes\obj\Debug\net6.0\ValueTypes.AssemblyInfo.cs
+E:\Spenger\56AKIF\POS\ValueTypes\obj\Debug\net6.0\ValueTypes.csproj.CoreCompileInputs.cache
+E:\Spenger\56AKIF\POS\ValueTypes\obj\Debug\net6.0\ValueTypes.dll
+E:\Spenger\56AKIF\POS\ValueTypes\obj\Debug\net6.0\refint\ValueTypes.dll
+E:\Spenger\56AKIF\POS\ValueTypes\obj\Debug\net6.0\ValueTypes.pdb
+E:\Spenger\56AKIF\POS\ValueTypes\obj\Debug\net6.0\ValueTypes.genruntimeconfig.cache
+E:\Spenger\56AKIF\POS\ValueTypes\obj\Debug\net6.0\ref\ValueTypes.dll

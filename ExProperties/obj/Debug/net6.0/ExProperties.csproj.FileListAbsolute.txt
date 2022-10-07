@@ -1,0 +1,15 @@
+E:\Spenger\56AKIF\POS\56akif_pos-MartinReichl\ExProperties\obj\Debug\net6.0\ExProperties.csproj.AssemblyReference.cache
+E:\Spenger\56AKIF\POS\56akif_pos-MartinReichl\ExProperties\obj\Debug\net6.0\ExProperties.GeneratedMSBuildEditorConfig.editorconfig
+E:\Spenger\56AKIF\POS\56akif_pos-MartinReichl\ExProperties\obj\Debug\net6.0\ExProperties.AssemblyInfoInputs.cache
+E:\Spenger\56AKIF\POS\56akif_pos-MartinReichl\ExProperties\obj\Debug\net6.0\ExProperties.AssemblyInfo.cs
+E:\Spenger\56AKIF\POS\56akif_pos-MartinReichl\ExProperties\obj\Debug\net6.0\ExProperties.csproj.CoreCompileInputs.cache
+E:\Spenger\56AKIF\POS\56akif_pos-MartinReichl\ExProperties\bin\Debug\net6.0\ExProperties.exe
+E:\Spenger\56AKIF\POS\56akif_pos-MartinReichl\ExProperties\bin\Debug\net6.0\ExProperties.deps.json
+E:\Spenger\56AKIF\POS\56akif_pos-MartinReichl\ExProperties\bin\Debug\net6.0\ExProperties.runtimeconfig.json
+E:\Spenger\56AKIF\POS\56akif_pos-MartinReichl\ExProperties\bin\Debug\net6.0\ExProperties.dll
+E:\Spenger\56AKIF\POS\56akif_pos-MartinReichl\ExProperties\bin\Debug\net6.0\ExProperties.pdb
+E:\Spenger\56AKIF\POS\56akif_pos-MartinReichl\ExProperties\obj\Debug\net6.0\ExProperties.dll
+E:\Spenger\56AKIF\POS\56akif_pos-MartinReichl\ExProperties\obj\Debug\net6.0\refint\ExProperties.dll
+E:\Spenger\56AKIF\POS\56akif_pos-MartinReichl\ExProperties\obj\Debug\net6.0\ExProperties.pdb
+E:\Spenger\56AKIF\POS\56akif_pos-MartinReichl\ExProperties\obj\Debug\net6.0\ExProperties.genruntimeconfig.cache
+E:\Spenger\56AKIF\POS\56akif_pos-MartinReichl\ExProperties\obj\Debug\net6.0\ref\ExProperties.dll

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Spenger\\56AKIF\\POS\\56akif_pos-MartinReichl\\ValueTypes\\ValueTypes.csproj",
-      "projectName": "ValueTypes",
-      "projectPath": "E:\\Spenger\\56AKIF\\POS\\56akif_pos-MartinReichl\\ValueTypes\\ValueTypes.csproj",
+      "projectUniqueName": "E:\\Spenger\\56akif\\POS\\56akif_pos-MartinReichl\\ExProperties\\ExProperties.csproj",
+      "projectName": "ExProperties",
+      "projectPath": "E:\\Spenger\\56akif\\POS\\56akif_pos-MartinReichl\\ExProperties\\ExProperties.csproj",
       "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
-      "outputPath": "E:\\Spenger\\56AKIF\\POS\\56akif_pos-MartinReichl\\ValueTypes\\obj\\",
+      "outputPath": "E:\\Spenger\\56akif\\POS\\56akif_pos-MartinReichl\\ExProperties\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Martin\\AppData\\Roaming\\NuGet\\NuGet.Config",

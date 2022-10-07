@@ -25,7 +25,7 @@ namespace ValueTypes
         /// </summary>
         public double? BerechneFlaeche2(double? laenge, double? breite)
         {
-            return laenge * breite ?? 0;
+            return laenge ?? 0 * breite ?? 0;
         }
 
         /// <summary>
@@ -46,7 +46,7 @@ namespace ValueTypes
         /// </summary>
         public decimal BerechnePreis(decimal nettopreis, decimal? steuerProdukt, decimal? steuerKategorie)
         {
-            return nettopreis * steuerProdukt ?? nettopreis * steuerKategorie ?? nettopreis * 1.2m;
+            return nettopreis * steuerProdukt ?? nettopreis * steuerKategorie ?? nettopreis * 1.2M;
         }
 
         /// <summary>
@@ -55,7 +55,7 @@ namespace ValueTypes
         /// </summary>
         public double BerechneSchuelerProKlasse(int schuelerGesamt, int klassenGesamt)
         {
-            return (double)schuelerGesamt / (double)klassenGesamt;
+            return (double)schuelerGesamt / klassenGesamt;
         }
 
         /// <summary>
@@ -65,7 +65,7 @@ namespace ValueTypes
         /// </summary>
         public int BerechneAchtel(long wert)
         {
-            return (int)(wert / 8);
+            return (int)wert / 8;
         }
     }
 }

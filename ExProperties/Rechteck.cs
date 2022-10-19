@@ -40,19 +40,13 @@ namespace ExProperties
             {
                 if (value < 0)
                 {
-                    throw new ArgumentException("Ungültige Länge!");
+                    throw new ArgumentException("Ungültige Breite!");
                 }
 
                 _breite = value;
             }
         }
 
-        public int Flaeche
-        {
-            get 
-            { 
-                return _laenge * _breite; 
-            }
-        }
+        public int Flaeche =>_laenge * _breite; 
     }
 }

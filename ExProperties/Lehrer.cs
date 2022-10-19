@@ -14,8 +14,8 @@ namespace ExProperties
 
         public string Zuname { get; set; }
 
-        public decimal? Bruttogehalt 
-        { 
+        public decimal? Bruttogehalt
+        {
             get
             {
                 return _bruttogehalt;
@@ -23,14 +23,14 @@ namespace ExProperties
 
             set
             {
-                if(_bruttogehalt == null)
+                if (_bruttogehalt == null)
                 {
                     _bruttogehalt = value;
                 }
-            } 
+            }
         }
 
-        public string? Kuerzel 
+        public string? Kuerzel
         {
             get
             {

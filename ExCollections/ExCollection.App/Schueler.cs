@@ -27,8 +27,7 @@ namespace ExCollection.App
         {
             // HIER DEN CODE EINFÜGEN
             this.KlasseNavigation.Schuelers.Remove(this);
-            k.Schuelers.Add(this);
-            this.KlasseNavigation = k;
+            k.AddSchueler(this);
         }
     }
 }

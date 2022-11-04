@@ -26,8 +26,11 @@ namespace ExCollection.App
         public void ChangeKlasse(Klasse k)
         {
             // HIER DEN CODE EINFÜGEN
-            this.KlasseNavigation.Schuelers.Remove(this);
-            k.AddSchueler(this);
+            if (k != null)
+            {
+                this.KlasseNavigation.Schuelers.Remove(this);
+                k.AddSchueler(this);
+            }
         }
     }
 }

@@ -20,8 +20,11 @@ namespace ExCollection.App
         public void AddSchueler(Schueler s)
         {
             // HIER DEN CODE EINFÜGEN
-            Schuelers.Add(s);
-            s.KlasseNavigation = this;
+            if(s != null)
+            {
+                Schuelers.Add(s);
+                s.KlasseNavigation = this;
+            }
         }
     }
 }

@@ -8,7 +8,7 @@ namespace ExCollection.App
     {
         // TODO: Erstelle ein Property Schuelers, welches alle Schüler der Klasse in einer
         //       Liste speichert.
-        public List<Schueler> Schuelers { get; set; } = new();
+        public List<Schueler> Schuelers { get; private set; } = new();
         public string Name { get; set; }
         public string KV { get; set; }
 

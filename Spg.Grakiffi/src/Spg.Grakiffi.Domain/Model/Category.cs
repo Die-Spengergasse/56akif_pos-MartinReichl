@@ -10,6 +10,6 @@ namespace Spg.Grakiffi.Domain.Model
     {
         public string Name { get; set; } = string.Empty;
 
-        public List<Filter> Filters { get; set; } = new();
+        public List<SubCategory> SubCategories { get; set; } = new();
     }
 }

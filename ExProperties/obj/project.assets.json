@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Spenger\\56akif\\POS\\56akif_pos-MartinReichl\\ExProperties\\ExProperties.csproj",
+      "projectUniqueName": "E:\\Spenger\\56AKIF\\POS\\56akif_pos-MartinReichl\\ExProperties\\ExProperties.csproj",
       "projectName": "ExProperties",
-      "projectPath": "E:\\Spenger\\56akif\\POS\\56akif_pos-MartinReichl\\ExProperties\\ExProperties.csproj",
+      "projectPath": "E:\\Spenger\\56AKIF\\POS\\56akif_pos-MartinReichl\\ExProperties\\ExProperties.csproj",
       "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
-      "outputPath": "E:\\Spenger\\56akif\\POS\\56akif_pos-MartinReichl\\ExProperties\\obj\\",
+      "outputPath": "E:\\Spenger\\56AKIF\\POS\\56akif_pos-MartinReichl\\ExProperties\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

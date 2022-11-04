@@ -25,21 +25,21 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Spg.Grakiffi.Domain.Model.Category">
-    <Position X="9.25" Y="2" Width="2.25" />
+    <Position X="9.25" Y="2" Width="3.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAQAAA=</HashCode>
       <FileName>Model\Category.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Spg.Grakiffi.Domain.Model.Filter">
+  <Class Name="Spg.Grakiffi.Domain.Model.SubCategory">
     <Position X="9.25" Y="4" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Model\Filter.cs</FileName>
+      <FileName>Model\SubCategory.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Spg.Grakiffi.Domain.Model.ShopContact">
-    <Position X="11.75" Y="2" Width="2.75" />
+    <Position X="12.75" Y="2" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Model\ShopContact.cs</FileName>

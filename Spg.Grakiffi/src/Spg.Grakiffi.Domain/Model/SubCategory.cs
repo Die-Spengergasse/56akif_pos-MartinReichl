@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Spg.Grakiffi.Domain.Model
 {
-    public class Filter
+    public class SubCategory
     {
         public string Name { get; set; } = string.Empty;
     }

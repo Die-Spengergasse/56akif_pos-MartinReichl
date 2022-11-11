@@ -23,7 +23,7 @@ namespace ExProperties
 
             set
             {
-                if (_bruttogehalt == null)
+                if (_bruttogehalt is null)
                 {
                     _bruttogehalt = value;
                 }
@@ -42,12 +42,7 @@ namespace ExProperties
         {
             get
             {
-                if (Bruttogehalt != null)
-                {
-                    return Bruttogehalt * 0.8M;
-                }
-
-                return 0;
+                return Bruttogehalt * 0.8M ?? 0; 
             }
         }
     }

@@ -47,6 +47,6 @@ namespace ExProperties
             }
         }
 
-        public int Flaeche =>_laenge * _breite; 
+        public int Flaeche => Laenge * Breite; 
     }
 }

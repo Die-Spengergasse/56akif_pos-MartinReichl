@@ -18,7 +18,6 @@ namespace Spg.PluePos._01
             SmartPhoneId = smartPhoneId;
         }
 
-
         public new void Add(Post post) 
         {
             if (post is not null)
@@ -30,7 +29,7 @@ namespace Spg.PluePos._01
 
         public string ProcessPosts()
         {
-            string allPosts = "";
+            string allPosts = string.Empty;
 
             foreach (Post post in this)
             {

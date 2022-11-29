@@ -10,10 +10,7 @@ namespace Spg.PluePos._01.Model
     {
         public string? Url { get; set; }
 
-        public override string Html
-        {
-            get => Url is null ? throw new ArgumentNullException("Url war NULL!") : $"<h1>{Title}</h1><img src={Url} />";
-        }
+        public override string Html => Url is null ? throw new ArgumentNullException("Url war NULL!") : $"<h1>{Title}</h1><img src={Url} />";
 
         public ImagePost(string title) : base(title) { }
 

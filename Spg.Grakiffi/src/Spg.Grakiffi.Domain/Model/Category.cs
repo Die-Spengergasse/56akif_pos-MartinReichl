@@ -8,8 +8,9 @@ namespace Spg.Grakiffi.Domain.Model
 {
     public class Category
     {
-        public string Name { get; set; } = string.Empty;
+        private List<SubCategory> _subCategories = new();
 
-        public List<SubCategory> SubCategories { get; set; } = new();
+        public string Name { get; set; } = string.Empty;
+        public IReadOnlyList<SubCategory> SubCategories => _subCategories;
     }
 }

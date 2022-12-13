@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace Spg.Grakiffi.Domain.Model
 {
-    public class ShopContact
+    public class EntityBase
     {
-        public string TelephoneNumber { get; set; } = string.Empty;
-        public string EMail { get; set; } = string.Empty;
     }
 }

@@ -6,26 +6,40 @@ using System.Threading.Tasks;
 
 namespace Spg.Grakiffi.Domain.Model
 {
-    public enum Genders { Male, Female, Other }
+    public enum Genders { Male = 0, Female = 1, Other = 2 }
 
-    internal class Customer
+    public class Customer
     {
+        private List<ShoppingCart> _shoppingCarts = new();
+
+        public int Id { get; }
         public Genders Gender { get; set; }
-
-        public string CustomerNumber { get; set; } = string.Empty;
-
+        public string CustomerNumber { get; } = string.Empty;
         public string FirstName { get; set; } = string.Empty;
-
         public string LastName { get; set; } = string.Empty;
-
         public string EMail { get; set; } = string.Empty;
-
-        public string Address { get; set; } = string.Empty;
-
-        public DateTime BirthDate { get; set; }
-
+        public string? Address { get; set; } = string.Empty;
+        public string? TelephoneNumber { get; set; } = string.Empty;
+        public DateTime BirthDate { get; }
         public DateTime RegistrationDateTime { get; set; }
+        public IReadOnlyList<ShoppingCart> ShoppingCarts  => _shoppingCarts;
 
-        public List<ShoppingCart> ShoppingCarts { get; set; } = new();
+        public Customer(Genders gender, 
+                        string customerNumber, 
+                        string firstName, 
+                        string lastName, 
+                        string eMail, 
+                        DateTime birthDate, 
+                        DateTime registrationDateTime)
+        {
+            Gender = gender;
+            CustomerNumber = customerNumber;
+            FirstName = firstName;
+            LastName = lastName;
+            EMail = eMail;
+            BirthDate = birthDate;
+            RegistrationDateTime = registrationDateTime;
+        }
+
     }
 }

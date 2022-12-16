@@ -14,7 +14,7 @@ namespace Spg.Grakiffi.Domain.Model
 
         public int Id { get; private set; }
         public Genders Gender { get; set; }
-        public string CustomerNumber { get; private set; } = string.Empty;
+        public long CustomerNumber { get; private set; }
         public string FirstName { get; set; } = string.Empty;
         public string LastName { get; set; } = string.Empty;
         public string EMail { get; set; } = string.Empty;
@@ -25,7 +25,7 @@ namespace Spg.Grakiffi.Domain.Model
         public IReadOnlyList<ShoppingCart> ShoppingCarts  => _shoppingCarts;
 
         public Customer(Genders gender, 
-                        string customerNumber, 
+                        long customerNumber, 
                         string firstName, 
                         string lastName, 
                         string eMail, 

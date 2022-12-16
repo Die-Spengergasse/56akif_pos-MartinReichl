@@ -12,6 +12,14 @@ namespace Spg.Grakiffi.Domain.Test
     public class ProductTest
     {
         [Fact]
+        public void SeedDb()
+        {
+            GrakiffiContext db = GenerateDB();
+            db.Seed();
+            Assert.True(true);
+        }
+
+        [Fact]
         public void Add_ProductEntity_SuccessTest()
         {
             // AAA

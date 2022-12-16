@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Bogus;
+using Microsoft.EntityFrameworkCore;
 using Spg.Grakiffi.Domain.Model;
 using System;
 using System.Collections.Generic;
@@ -23,6 +24,60 @@ namespace Spg.Grakiffi.Infrastructure
         
         public GrakiffiContext(DbContextOptions options) : base(options)
         { }
+
+        public void Seed()
+        {
+            Randomizer.Seed = new Random(144412);
+
+            List<Customer> customers = new Faker<Customer>("de").CustomInstantiator(f => 
+            new Customer(
+                f.Random.Enum<Genders>(), 
+                f.Random.Long(111111, 999999),
+                f.Name.FirstName(Bogus.DataSets.Name.Gender.Female),
+                f.Name.LastName(),
+                f.Internet.Email(),
+                f.Date.Between(DateTime.Now.AddYears(-60), DateTime.Now.AddYears(-18)),
+                f.Date.Between(DateTime.Now.AddYears(-10), DateTime.Now.AddDays(-2))
+            ))
+            .Rules((f, c) =>
+            {
+                if (c.Gender == Genders.Male)
+                {
+                    c.FirstName = f.Name.FirstName(Bogus.DataSets.Name.Gender.Male);
+                }
+
+                c.Address = new Address()
+                {
+                    Street = f.Address.StreetName(),
+                    HouseNumber = f.Address.BuildingNumber(),
+                    Zip = f.Address.ZipCode(),
+                    City = f.Address.City()
+                };
+
+                c.TelephoneNumber = f.Phone.PhoneNumber();
+            })
+            .Generate(30)
+            .ToList();
+
+            Customers.AddRange(customers);
+            SaveChanges();
+
+            List<ShoppingCart> shoppingCarts = new Faker<ShoppingCart>().CustomInstantiator(f => 
+                new ShoppingCart(
+                    f.Commerce.ProductName(),
+                    ShoppingCartStates.Sent,
+                    f.Date.Between(DateTime.Now.AddYears(-10), DateTime.Now.AddYears(-10))
+                )
+            ).Rules((f, s) => 
+            {
+                s.CustomerNavigation = f.Random.ListItem(customers);
+            })
+            .Generate(200)
+            .ToList();
+
+            ShoppingCarts.AddRange(shoppingCarts);
+            SaveChanges();
+        }
 
         // Konfiguration vor DB Erstellung
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

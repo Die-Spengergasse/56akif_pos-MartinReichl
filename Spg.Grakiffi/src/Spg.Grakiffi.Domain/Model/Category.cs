@@ -10,7 +10,10 @@ namespace Spg.Grakiffi.Domain.Model
     {
         private List<SubCategory> _subCategories = new();
 
-        public string Name { get; set; } = string.Empty;
+        public string Name { get; private set; } = string.Empty;
         public IReadOnlyList<SubCategory> SubCategories => _subCategories;
+
+        protected Category()
+        { }
     }
 }

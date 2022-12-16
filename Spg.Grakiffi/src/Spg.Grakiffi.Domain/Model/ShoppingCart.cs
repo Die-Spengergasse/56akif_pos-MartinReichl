@@ -12,13 +12,24 @@ namespace Spg.Grakiffi.Domain.Model
     {
         private List<ShoppingCartItem> _shoppingCartItems = new();
 
-        public int Id { get; }
-        public int ItemsCount { get; }
+        public int Id { get; private set; }
         public string Name { get; set; } = string.Empty;
-        public decimal TotalPrice { get; set; }
         public ShoppingCartStates ShoppingCartState { get; set; }
-        public DateTime CreationDate { get; set; }
+        public DateTime CreationDate { get; private set; }
+        public int ItemsCount { get; private set; }
+        public decimal TotalPrice { get; private set; }
+        public int CustomerNavigationId { get; set; }
         public Customer CustomerNavigation { get; set; } = default!;
         public IReadOnlyList<ShoppingCartItem> ShoppingCartItems => _shoppingCartItems;
+
+        public ShoppingCart(string name, ShoppingCartStates shoppingCartState, DateTime creationDate)
+        {
+            Name = name;
+            ShoppingCartState = shoppingCartState;
+            CreationDate = creationDate;
+        }
+
+        protected ShoppingCart()
+        { }
     }
 }

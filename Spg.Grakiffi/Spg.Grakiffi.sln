@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spg.Grakiffi.Domain", "src\Spg.Grakiffi.Domain\Spg.Grakiffi.Domain.csproj", "{2019EDF1-A328-40E6-A2F3-A58A4B625977}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spg.Grakiffi.Domain", "src\Spg.Grakiffi.Domain\Spg.Grakiffi.Domain.csproj", "{2019EDF1-A328-40E6-A2F3-A58A4B625977}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spg.Grakiffi.Infrastructure", "src\Spg.Grakiffi.Infrastructure\Spg.Grakiffi.Infrastructure.csproj", "{1B0FDC02-F1E3-44D7-AE78-E337E9EBF901}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spg.Grakiffi.Repository", "src\Spg.Grakiffi.Repository\Spg.Grakiffi.Repository.csproj", "{BB7AF7E7-8793-4648-84CD-FEC29F699BA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spg.Grakiffi.MvcFrontEnd", "src\Spg.Grakiffi.MvcFrontEnd\Spg.Grakiffi.MvcFrontEnd.csproj", "{C1B59D6D-8924-44BC-BD1E-A47CFB8680EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spg.Grakiffi.Application", "src\Spg.Grakiffi.Application\Spg.Grakiffi.Application.csproj", "{1ECD055B-AA86-4B75-B1D0-4112E7E6C852}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spg.Grakiffi.Domain.Test", "src\Spg.Grakiffi.Domain.Test\Spg.Grakiffi.Domain.Test.csproj", "{8870F460-39A8-4525-961D-7CE27B89177F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{2019EDF1-A328-40E6-A2F3-A58A4B625977}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2019EDF1-A328-40E6-A2F3-A58A4B625977}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2019EDF1-A328-40E6-A2F3-A58A4B625977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B0FDC02-F1E3-44D7-AE78-E337E9EBF901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B0FDC02-F1E3-44D7-AE78-E337E9EBF901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B0FDC02-F1E3-44D7-AE78-E337E9EBF901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B0FDC02-F1E3-44D7-AE78-E337E9EBF901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB7AF7E7-8793-4648-84CD-FEC29F699BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB7AF7E7-8793-4648-84CD-FEC29F699BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB7AF7E7-8793-4648-84CD-FEC29F699BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB7AF7E7-8793-4648-84CD-FEC29F699BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1B59D6D-8924-44BC-BD1E-A47CFB8680EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1B59D6D-8924-44BC-BD1E-A47CFB8680EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1B59D6D-8924-44BC-BD1E-A47CFB8680EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1B59D6D-8924-44BC-BD1E-A47CFB8680EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ECD055B-AA86-4B75-B1D0-4112E7E6C852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ECD055B-AA86-4B75-B1D0-4112E7E6C852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ECD055B-AA86-4B75-B1D0-4112E7E6C852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ECD055B-AA86-4B75-B1D0-4112E7E6C852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8870F460-39A8-4525-961D-7CE27B89177F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8870F460-39A8-4525-961D-7CE27B89177F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8870F460-39A8-4525-961D-7CE27B89177F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8870F460-39A8-4525-961D-7CE27B89177F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

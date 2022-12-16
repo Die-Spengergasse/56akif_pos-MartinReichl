@@ -12,16 +12,16 @@ namespace Spg.Grakiffi.Domain.Model
     {
         private List<ShoppingCart> _shoppingCarts = new();
 
-        public int Id { get; }
+        public int Id { get; private set; }
         public Genders Gender { get; set; }
-        public string CustomerNumber { get; } = string.Empty;
+        public string CustomerNumber { get; private set; } = string.Empty;
         public string FirstName { get; set; } = string.Empty;
         public string LastName { get; set; } = string.Empty;
         public string EMail { get; set; } = string.Empty;
-        public string? Address { get; set; } = string.Empty;
+        public Address? Address { get; set; } = default!;
         public string? TelephoneNumber { get; set; } = string.Empty;
-        public DateTime BirthDate { get; }
-        public DateTime RegistrationDateTime { get; set; }
+        public DateTime BirthDate { get; private set; }
+        public DateTime RegistrationDateTime { get; private set; }
         public IReadOnlyList<ShoppingCart> ShoppingCarts  => _shoppingCarts;
 
         public Customer(Genders gender, 
@@ -41,5 +41,7 @@ namespace Spg.Grakiffi.Domain.Model
             RegistrationDateTime = registrationDateTime;
         }
 
+        protected Customer()
+        { }
     }
 }

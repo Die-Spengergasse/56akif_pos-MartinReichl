@@ -10,14 +10,13 @@ namespace Spg.Grakiffi.Domain.Model
     {
         private List<ShoppingCartItem> _shoppingCartItems = new();
 
-        public string Name { get; set; } = string.Empty;
+        public string Name { get; private set; } = string.Empty;
         public decimal Price { get; set; }
         public int Tax { get; set; }
         public string Ean { get; set; } = string.Empty;
         public string? Material { get; set; } = string.Empty;
-        //public DateTime? ExpiryDate { get; set; }
         public IReadOnlyList<ShoppingCartItem> ShoppingCartItems => _shoppingCartItems;
-        
+
         public Product(string name, decimal price, int tax, string ean)
         {
             Name = name;
@@ -25,5 +24,8 @@ namespace Spg.Grakiffi.Domain.Model
             Tax = tax;
             Ean = ean;
         }
+
+        protected Product()
+        { }
     }
 }

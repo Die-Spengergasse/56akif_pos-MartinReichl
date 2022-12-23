@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spg.Grakiffi.MvcFrontEnd", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spg.Grakiffi.Application", "src\Spg.Grakiffi.Application\Spg.Grakiffi.Application.csproj", "{1ECD055B-AA86-4B75-B1D0-4112E7E6C852}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spg.Grakiffi.Domain.Test", "src\Spg.Grakiffi.Domain.Test\Spg.Grakiffi.Domain.Test.csproj", "{8870F460-39A8-4525-961D-7CE27B89177F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spg.Grakiffi.Domain.Test", "src\Spg.Grakiffi.Domain.Test\Spg.Grakiffi.Domain.Test.csproj", "{8870F460-39A8-4525-961D-7CE27B89177F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spg.Grakiffi.LinQDemo", "src\Spg.Grakiffi.LinQDemo\Spg.Grakiffi.LinQDemo.csproj", "{96497AD1-87F4-45F5-BDD4-9E0117BD8ADD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{8870F460-39A8-4525-961D-7CE27B89177F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8870F460-39A8-4525-961D-7CE27B89177F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8870F460-39A8-4525-961D-7CE27B89177F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96497AD1-87F4-45F5-BDD4-9E0117BD8ADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96497AD1-87F4-45F5-BDD4-9E0117BD8ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96497AD1-87F4-45F5-BDD4-9E0117BD8ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96497AD1-87F4-45F5-BDD4-9E0117BD8ADD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

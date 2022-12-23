@@ -1,3 +1,3 @@
 git add *
-git commit -m "PLÜ2"
+git commit -m "PLUE2"
 git push origin main
